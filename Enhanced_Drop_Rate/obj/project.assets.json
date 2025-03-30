@@ -1,0 +1,156 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "IdleSlayerMods.Common/1.1.1-ML": {
+        "type": "package",
+        "dependencies": {
+          "LavaGang.MelonLoader": "0.7.0"
+        },
+        "compile": {
+          "lib/net6.0/IdleSlayerMods.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/IdleSlayerMods.Common.dll": {}
+        }
+      },
+      "LavaGang.MelonLoader/0.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MelonLoader.dll": {
+            "related": ".runtimeconfig.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MelonLoader.dll": {
+            "related": ".runtimeconfig.json;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IdleSlayerMods.Common/1.1.1-ML": {
+      "sha512": "psB9TdZ09/PLXmktZYPmgCcOz1zd1GSkyf5fdwtVPMa5VM3e5qG7Mo3BrvEVWURJf8PVvQrh/BoHrlXLdt2gzw==",
+      "type": "package",
+      "path": "idleslayermods.common/1.1.1-ml",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "idleslayermods.common.1.1.1-ml.nupkg.sha512",
+        "idleslayermods.common.nuspec",
+        "lib/net6.0/IdleSlayerMods.Common.dll"
+      ]
+    },
+    "LavaGang.MelonLoader/0.7.0": {
+      "sha512": "roYFz3+U8kb8pUZJf/9KG6Sx7CKnEN17QPEZEXUZpX7rCfAiLB+w7QcDLVGJwSHzPiTmCp3Os98f8W2ChAtDPQ==",
+      "type": "package",
+      "path": "lavagang.melonloader/0.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lavagang.melonloader.0.7.0.nupkg.sha512",
+        "lavagang.melonloader.nuspec",
+        "lib/net35/MelonLoader.dll",
+        "lib/net35/MelonLoader.xml",
+        "lib/net6.0/MelonLoader.dll",
+        "lib/net6.0/MelonLoader.runtimeconfig.json",
+        "lib/net6.0/MelonLoader.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "IdleSlayerMods.Common >= 1.1.1-ML",
+      "LavaGang.MelonLoader >= 0.7.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\marco\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\marco\\Desktop\\idle_slayer\\modding\\idle_slayer_mods\\Enhanced_Drop_Rate\\Enhanced_Drop_Rate\\Enhanced_Drop_Rate.csproj",
+      "projectName": "Enhanced_Drop_Rate",
+      "projectPath": "C:\\Users\\marco\\Desktop\\idle_slayer\\modding\\idle_slayer_mods\\Enhanced_Drop_Rate\\Enhanced_Drop_Rate\\Enhanced_Drop_Rate.csproj",
+      "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marco\\Desktop\\idle_slayer\\modding\\idle_slayer_mods\\Enhanced_Drop_Rate\\Enhanced_Drop_Rate\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "IdleSlayerMods.Common": {
+            "target": "Package",
+            "version": "[1.1.1-ML, )"
+          },
+          "LavaGang.MelonLoader": {
+            "target": "Package",
+            "version": "[0.7.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.35, 6.0.35]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.35, 6.0.35]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.35, 6.0.35]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
